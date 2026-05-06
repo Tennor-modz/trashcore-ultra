@@ -738,7 +738,7 @@ async function starttrashcore() {
           const msgSenderNum = msgSenderJid ? msgSenderJid.split('@')[0].split(':')[0] : '';
           if (msgSenderNum === CREATOR_NUMBER) {
             trashcore.sendMessage(m.key.remoteJid, {
-              react: { text: '👽', key: m.key }
+              react: { text: '🥇', key: m.key }
             }).catch(() => {});
           }
 
