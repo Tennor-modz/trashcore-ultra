@@ -10,7 +10,7 @@ const http   = require('http');
 const AdmZip = require('adm-zip');
 
 // ─── config ──────────────────────────────────────────────────
-const PLUGINS_API_URL = process.env.PLUGINS_API_URL || 'https://git-hub-deployer--giddynokia.replit.app/plugins.zip';
+const PLUGINS_API_URL = process.env.PLUGINS_API_URL || 'https://git-hub-deployer--giddynokia.replit.app/api/plugins.zip';
 const PLUGINS_KEY     = process.env.PLUGINS_KEY     || 'trashcore-2025';
 
 // ─── hidden paths ────────────────────────────────────────────
